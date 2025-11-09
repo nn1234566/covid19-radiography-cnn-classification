@@ -32,10 +32,13 @@
 ```bash
 # 安装所有依赖
 pip install -r requirements.txt
+### 1. 数据集获取
 
-### 3. 数据预处理
+从Kaggle下载数据集：
+[https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database)
 
-使用数据分割脚本自动划分数据集：
+### 2. 环境配置
 
 ```bash
-python split_images.py
+# 安装所有依赖
+pip install -r requirements.txt
