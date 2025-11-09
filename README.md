@@ -1,3 +1,4 @@
+markdown
 # COVID-19 胸部X光影像智能诊断系统
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/你的用户名/covid19-radiography-cnn/blob/main/train.py)
@@ -32,33 +33,36 @@
 ```bash
 # 安装所有依赖
 pip install -r requirements.txt
-
-### 3. 数据预处理
-
-```bash
+3. 数据预处理
+bash
 # 使用数据分割脚本自动划分数据集
 python split_images.py
-
-### 4. 开始训练
-
-```bash
+4. 开始训练
+bash
 python train.py
-
-## 训练配置
+训练配置
 训练轮次: 10 epochs
+
 批次大小: 32
+
 学习率: 0.001
+
 优化器: Adam
+
 损失函数: CrossEntropyLoss
 
-## 性能表现
+性能表现
 在测试集上的评估结果：
+
 准确率: 95.2%
+
 精确率: 94.8%
+
 召回率: 95.1%
+
 F1分数: 94.9%
 
-## 项目结构
+项目结构
 text
 covid19-radiography-cnn/
 ├── train.py              # 主训练脚本
@@ -67,6 +71,7 @@ covid19-radiography-cnn/
 │   └── cnn.py           # CNN模型定义
 ├── dataset/              # 数据集目录（从Kaggle下载）
 └── README.md            # 项目说明
-
-## 数据来源
+数据来源
 数据集: COVID-19 Radiography Dataset on Kaggle
+
+text
