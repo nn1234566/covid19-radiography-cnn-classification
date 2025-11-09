@@ -24,8 +24,10 @@
 pip install -r requirements.txt
 
 ### 3.数据预处理
+```bash
 # 使用数据分割脚本自动划分数据集
 # python split_images.py
 
 ### 4.开始训练
+```bash
 # python train.py
