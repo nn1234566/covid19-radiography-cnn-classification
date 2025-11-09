@@ -7,12 +7,12 @@
 安装所有依赖：
 
 pip install -r requirements.txt  
-3. 数据预处理  
+## 3. 数据预处理
 
 使用数据分割脚本自动划分数据集：
 
-`**bash  
-python split_images.py  
+```bash
+python split_images.py
 4. 开始训练  
 启动模型训练：  
 
