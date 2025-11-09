@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```bash
 python split_images.py
 
-### 4. 开始训练
+## 3. 数据预处理
 ```bash
 启动模型训练：  
 python train.py
